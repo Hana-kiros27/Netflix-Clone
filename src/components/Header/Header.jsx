@@ -1,5 +1,4 @@
 
-//API-KEY
 import React from "react";
 import "./header.css";
 import SearchIcon from '@mui/icons-material/Search';
@@ -7,7 +6,7 @@ import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 // import { Navbar, Nav } from "react-bootstrap";
-import Netflixlogo from '../../assets/images/netlogo.png'
+import Netflixlogo from '../../assets/images/NETFLIXLOGO.png'
 
 function Header() {
   return (
