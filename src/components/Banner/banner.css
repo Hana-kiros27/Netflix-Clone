@@ -1,6 +1,6 @@
 .banner {
   margin-top: 10vh;
-  height: 80vh;
+  height: 100vh;
   margin-bottom: 80px;
   color: white;
   object-fit: contain;
@@ -10,6 +10,7 @@
   padding-top: 300px;
 }
 .banner_title {
+   margin-left: 45px;
   font-size: 3rem;
   font-weight: 800;
   padding-bottom: 0.3rem;

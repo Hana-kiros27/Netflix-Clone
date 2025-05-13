@@ -8,7 +8,7 @@ const Banner = () => {
     (async () => {
       try {
         const request = await axios.get(requests.fetchNetflixOriginals);
-
+// console.log(request);
         setMovie(
           request.data.results[
             Math.floor(Math.random() * request.data.results.length)
@@ -39,13 +39,13 @@ const Banner = () => {
           {movie?.title || movie?.name || movie.original_name}
         </h1>
         <div className="banner_buttons">
-
           <button className=" paly">play</button>
           <button className="banner_button ">My List</button>
-
+          <h1 className="banner_description">
+            {truncate(movie?.overview, 150)}
+          </h1>
         </div>
-
-        <h1 className="banner_description">{truncate(movie?.overview, 150)}</h1>
+        
       </div>
 
       <div className="banner_fadeBottom"></div>
