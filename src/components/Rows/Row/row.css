@@ -6,7 +6,6 @@
     transition: transform 450ms;
     margin-right: 10px; /* Added missing semicolon */
 
-
 }
 .row_posters{
     display: flex;
